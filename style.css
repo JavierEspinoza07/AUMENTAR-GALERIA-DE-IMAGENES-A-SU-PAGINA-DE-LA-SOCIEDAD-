@@ -1,0 +1,102 @@
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+header{
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 1rem 2rem;
+}
+header h1{
+    font-size: 3rem;
+    text-align: center ;
+}
+.cont {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.tod {
+    width: 900px; 
+    margin: 0 auto; 
+}
+.im {
+    display: flex;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(imagenes/Captura\ de\ pantalla\ \(103\).png);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.contenedor{
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    left: -23px;
+    top: 90px;
+}
+
+aside{
+    min-width: 30%;
+    margin: 40px 20px 20px 0;
+    height: 100%;
+    
+    padding: 20px;
+    border-radius: 3px;
+    position: sticky;
+    top: 0;
+}
+.idc-box {
+    
+    text-align: left; 
+    font-size: 0.7em; 
+    padding: 5px; 
+    background-color: #86c2ae; 
+    border-radius: 3px; 
+}
+.men{
+    display: flex;
+    flex-wrap: wrap;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(133, 211, 198);
+      }
+      li {
+        display: inline;
+        padding: 10px;
+      }
+      li:hover {
+        background-color: #ddd;
+      }
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.image{
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 10px 0;
+    overflow: hidden;
+
+
+}
+.image img{
+   width: 100%;
+   vertical-align: top;
+   height: 300px;
+   object-fit: cover;
+}
+.gdi{
+    font-size: 3rem;
+    text-align: center ;
+}
